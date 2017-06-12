@@ -1,6 +1,9 @@
 # mysql_schedule_backup
 mysql_schedule_backup是定时、全量备份指定mysql数据库的程序。可设置是否压缩备份文件、备份文件保留的天数
 
+## 备份流程图
+![image](https://github.com/zhongjiajie/mysql_schedule_backup/raw/master/support_file/mysql_schedule_backup.png)
+
 ## Requirements
 * schedule==0.4.2
 
