@@ -11,7 +11,7 @@ job = {
         "is_zip": "true"
     },
     "db_connection": [
-        # 每一个dict对应一个IP:PORT
+        # 备份的第一个数据库
         {
             "usr": "root",
             "pwd": "mysql",
@@ -29,6 +29,7 @@ job = {
                 ]
             }
         },
+        # 备份第二个数据库
         {
             "usr": "root",
             "pwd": "mysql",
