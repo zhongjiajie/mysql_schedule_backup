@@ -8,7 +8,7 @@ mysql_schedule_backup是定时、全量备份指定mysql数据库的程序。可
 * schedule==0.4.2
 
 ## How to run
-* 先安装schedule
+* 安装schedule
 ```shell
 pip install schedule
 ```
